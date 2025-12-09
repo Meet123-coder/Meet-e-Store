@@ -21,11 +21,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
-      <div className="container-custom">
-        {/* Top bar */}
-        <div className="hidden md:flex items-center justify-center py-2 text-sm text-muted-foreground border-b border-border">
-          <p>Free shipping on orders over ₹500 • 30-day returns</p>
+      {/* Top bar */}
+       <div className="hidden md:flex items-center justify-center py-2 text-sm text-primary-foreground border-b border-border bg-primary">
+          <p>Free shipping on orders over ₹499 | 7-day returns</p>
         </div>
+      <div className="container-custom">
+        
+       
 
         {/* Main header */}
         <div className="flex items-center justify-between h-16 md:h-20">

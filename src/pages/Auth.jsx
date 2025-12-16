@@ -40,7 +40,7 @@ const Auth = () => {
               <p className="text-muted-foreground">
                 {isLogin
                   ? "Sign in to access your account"
-                  : "Join Het's Store today"}
+                  : "Join Meet's Store today"}
               </p>
             </div>
 
